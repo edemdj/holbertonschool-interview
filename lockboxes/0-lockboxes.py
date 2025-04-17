@@ -1,7 +1,8 @@
+#!/usr/bin/python3
 def canUnlockAll(boxes):
     n = len(boxes)
-    opened = set([0])  # On commence par la première boîte (toujours ouverte)
-    keys = set(boxes[0])  # On prend les clés dans la boîte 0
+    opened = set([0])  # Start with the first box opened
+    keys = set(boxes[0]) # Get keys from the first box
 
     while keys:
         key = keys.pop()
