@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def canUnlockAll(boxes):
+    "prototype of the function"
     n = len(boxes)
     opened = set([0])  # Start with the first box opened
     keys = set(boxes[0]) # Get keys from the first box
