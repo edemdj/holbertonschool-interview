@@ -1,4 +1,7 @@
+#!/usr/bin/python3
+" Module to validate UTF-8 encoding of a list of integers"
 def validUTF8(data):
+    " Function to validate if a list of integers represents valid UTF-8 encoding"
     num_bytes = 0
 
     for byte in data:
